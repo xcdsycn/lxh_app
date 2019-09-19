@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
+
 void main() => runApp(MyApp());
 
+
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
         title: 'lxh Demo',
         theme: ThemeData(
@@ -27,6 +31,7 @@ class MyApp extends StatelessWidget {
 }
 
 class RandomWords extends StatefulWidget {
+
   @override
   RandomWordsState createState() => RandomWordsState();
 }
@@ -67,4 +72,6 @@ class RandomWordsState extends State<RandomWords> {
       ),
     );
   }
+
+
 }
